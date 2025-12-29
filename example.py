@@ -8,7 +8,7 @@ detector = Detector(model_name='rapid',
                     use_cuda=False)
 
 input_dir = "./pic/pic"     # 你的输入图片文件夹
-output_dir = "./outputs"   # 输出文件夹
+output_dir = "./outputs_1"   # 输出文件夹
 os.makedirs(output_dir, exist_ok=True)
 
 exts = (".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp")
