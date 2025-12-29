@@ -7,7 +7,7 @@ detector = Detector(model_name='rapid',
                     weights_path='./weights/pL1_MWHB1024_Mar11_4000.ckpt',
                     use_cuda=False)
 
-input_dir = "./pic"     # 你的输入图片文件夹
+input_dir = "./pic/pic"     # 你的输入图片文件夹
 output_dir = "./outputs"   # 输出文件夹
 os.makedirs(output_dir, exist_ok=True)
 
