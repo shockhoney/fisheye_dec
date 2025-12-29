@@ -9,7 +9,7 @@ detector = Detector(model_name='rapid',
 
 # 让 detect_one 返回“画好框”的 numpy 图片 :contentReference[oaicite:2]{index=2}
 np_img = detector.detect_one(
-            img_path='./images/exhibition.jpg',
+            img_path='./images/1.jpg',
                 input_size=1024, conf_thres=0.3,
                     return_img=True
                     )
